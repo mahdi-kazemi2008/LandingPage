@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+body{
+	background-image: url("../assets-Bear/image/background.svg");
+	text-align: center;
+}
+header{
+	margin: 200px;
+}
+.text{
+	font-weight:bold;
+	font-size: 50px;
+	color: #663128;
+	display: block;
+}
+.span{
+	font-weight: normal;
+	font-size: 25px;
+	color: #663128;
+	
+}
+.paragraph{
+	color: #663128;
+	display: inline-block;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 20px;
+}
+header img{
+	margin-top: 1rem;
+}
+.btn{
+	background-color: #f3ce5e;
+	padding: 10px 20px;
+	border-radius: 30px;
+	color: #663128;
+	text-decoration: none;
+}
+.about{
+	color:#663128;
+	display: inline-block;
+}
+.buttons{
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.services{
+	background-color: #7c4032;
+}
+.services h2{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 2rem;
+}
+.service-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+	gap:10rem;
+	padding: 3px;
+	border-radius: 10px;
+	
+}
+.service-grid div{
+	padding: 20px;
+}
+.services img{
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	aspect-ratio:1/1;
+	padding-right: 20px;
+}
+
+.downware h2{
+	color: #7c4032;
+	font-size: 40px;
+}
+.testimonial{
+	display: inline;
+	text-align: left;
+	background-color: white;
+	color: gray;
+	padding: 10px 30px;
+	border-radius: 20px;
+	margin: 1rem auto;
+	max-width: 600px;
+	margin-bottom: 40px;
+	
+}
+h3{
+	color: #7c4032;
+}
+.form{
+	display: inline-block;
+	text-align: left;
+}
+label{
+	font-weight: bold;
+	text-align: center;
+}
+.contact{
+	background-color: white;
+}
+.contact h2{
+	color:#7c4032;
+	font-size: 40px;
+	margin-bottom: 1.5rem;
+}
+.contact form{
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+	margin: 0 auto;
+}
+.contact input{
+	background-color: #e5af99;
+	border: 2px solid #e5af99; 
+	margin: 10px 0;
+	padding: 15px 30px;
+	border-radius: 50px;
+	margin-bottom: 10px;
+	
+}
+.contact button{
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+	text-decoration: underline;
+}
