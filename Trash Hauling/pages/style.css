@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+body{
+	background-color: white;
+	text-align: center;
+	background-image: url("../assets/image/background.svg");
+	background-repeat: no-repeat;
+}
+header span{
+	color: #6d91ee;
+}
+.Toop{
+	margin-top: 100px;
+}
+.write{
+	font-size: 50px;
+}
+.line{
+	font-size: 25px;
+	letter-spacing: 8px;
+}
+.title{
+	display: inline-block;
+	margin-left: 10px;
+}
+.section{
+	margin-top: 170px;
+	margin-bottom: 170px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.link{
+	color: white;
+	background-color: #6d91ee;
+	padding: 10px 35px;
+	border-radius: 15px;
+	font-weight: bold;
+}
+.text{
+	font-size: 50px;
+	font-weight: lighter;
+	color: rgb(60,56,55);
+}
+.text-line{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: black;
+}
+.help{
+	color: white;
+	background-color: #6d91ee;
+	font-weight: bold;
+	padding: 15px 20px;
+	border-radius: 30px;
+}
+.Help{
+	margin-top: 40px;
+}
+.mind{
+	background-image: url("../assets/image/rubbish.svg");
+	background-repeat: no-repeat;
+}
+.auto{
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+.aboutus{
+	display: inline-block;
+	text-align: left;
+	color: white;
+}
+.where{
+	display: inline-block;
+	text-align: right;
+	color: white;
+	background-color: #6d91ee;
+	padding: 30px;
+	border-radius: 40px;
+}
+.where h2{
+	font-size: 70px;
+}
+.button{
+	margin-top: 60px;
+}
+.btn{
+	background-color: #eec04b;
+	color: #515151;
+	padding: 20px 30px;
+	border-radius: 40px;
+	font-weight: bolder;
+}
+.services h2{
+	color:#6d91ee;
+	font-size: 25px;
+}
+.services h4{
+	color: #324453;
+}
+.services p{
+	color: #324453;
+}
+.services{
+	margin-bottom: 60px;
+}
+.card{
+	display: inline-block;
+	text-align: left;
+	margin: 20px;
+}
+.images{
+	margin-bottom: 50px;
+}
+.testimonials h2{
+	color: #6d91ee;
+	font-size: 30px;
+}
+.commend h4{
+	color: #6d91ee;
+}
+.commend p{
+	color: #22366a;
+}
+.commend{
+	display: inline-block;
+	text-align: left;
+	border: 1px solid #6d91ee;
+	padding: 15px 35px;
+	margin: 20px;
+	border-radius: 30px;
+}
+.contact h2{
+	color: #6d91ee;
+	font-size: 30px;
+}
+.contact{
+	padding-bottom: 50px;
+}
+input{
+	background-color: #cedcff;
+	padding: 20px 30px;
+	border: 1px solid #cedcff;
+	border-radius: 40px;
+	margin: 10px;
+	cursor: pointer;
+}
+.form{
+	display: inline-block;
+	text-align: left;
+	margin-right: 60px;
+}
+.value{
+	display: inline-block;
+	text-align: left;
+}
+
